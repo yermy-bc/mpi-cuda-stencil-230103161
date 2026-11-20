@@ -1,0 +1,217 @@
+{
+  "student_name": "Ainat Yermurat",
+  "student_id": "230103161",
+  "GITHUB_USERNAME": "yermy-bc",
+  "github_username": "yermy-bc",
+  "repository": "mpi-cuda-stencil-yermy-bc",
+  "timestamp_utc": "2026-11-20T05:21:33.591356+00:00",
+  "gpu_name": "Tesla T4",
+  "gpu_uuid": "GPU-abeebd7d-e34b-f585-83bc-9af29ec895f6",
+  "compute_capability": "7.5",
+  "gpu_attributes": {
+    "MULTIPROCESSOR_COUNT": 40,
+    "ASYNC_ENGINE_COUNT": 3,
+    "CONCURRENT_KERNELS": 1,
+    "MAX_SHARED_MEMORY_PER_BLOCK": 49152,
+    "COMPUTE_MODE": 0
+  },
+  "seed_sha256": "e200e54fef78c6d6305a9624a42a16f343768a75de08779543911df23b0efe28",
+  "INSTANCE_SEED": "16285268384054560470",
+  "instance_seed_hex": "0xe200e54fef78c6d6",
+  "mpi_ranks": 4,
+  "cart_dims": [
+    2,
+    2
+  ],
+  "periods": [
+    false,
+    false
+  ],
+  "rank_topology": [
+    {
+      "rank": 0,
+      "coords": [
+        0,
+        0
+      ]
+    },
+    {
+      "rank": 1,
+      "coords": [
+        0,
+        1
+      ]
+    },
+    {
+      "rank": 2,
+      "coords": [
+        1,
+        0
+      ]
+    },
+    {
+      "rank": 3,
+      "coords": [
+        1,
+        1
+      ]
+    }
+  ],
+  "mpi_library": "Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000",
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.4.6",
+    "numba": "0.64.0",
+    "mpi4py": "4.1.2"
+  },
+  "global_grid": [
+    512,
+    512
+  ],
+  "local_padded_shape": [
+    258,
+    258
+  ],
+  "threadblock": [
+    16,
+    16
+  ],
+  "shared_tile": [
+    18,
+    18
+  ],
+  "dx": 0.001949317738791423,
+  "dy": 0.001949317738791423,
+  "kappa_min": 0.08000199739253472,
+  "kappa_max": 0.2399980026074653,
+  "dt": 3.166559392564469e-06,
+  "dt_max_cfl": 3.958199240705586e-06,
+  "cfl_fraction": 0.8,
+  "lambda": 0.15,
+  "n_steps": 400,
+  "initial_conditions": [
+    {
+      "cx": 0.6325754752285098,
+      "cy": 0.7998499331328637,
+      "amp": 0.6020861503934202,
+      "sigma": 0.08411475497255305
+    },
+    {
+      "cx": 0.3201699908706527,
+      "cy": 0.3495628189642675,
+      "amp": 0.8524246512680385,
+      "sigma": 0.06370729054861661
+    },
+    {
+      "cx": 0.49441664709147193,
+      "cy": 0.6822935701596944,
+      "amp": 0.859943087234764,
+      "sigma": 0.05078837892716652
+    }
+  ],
+  "source": {
+    "cx": 0.3251153391705588,
+    "cy": 0.5216395610209904,
+    "amp": 0.05,
+    "sigma": 0.03
+  },
+  "energy_trace_serialized": [
+    {
+      "step": 0,
+      "energy": 0.06220141891062554,
+      "l2_residual": 0.0,
+      "u_max": 0.922413426268003
+    },
+    {
+      "step": 100,
+      "energy": 0.06212800344479495,
+      "l2_residual": 0.015839200733515007,
+      "u_max": 0.8858073723809953
+    },
+    {
+      "step": 200,
+      "energy": 0.06208424746570877,
+      "l2_residual": 0.014906310449378646,
+      "u_max": 0.8523869177362488
+    },
+    {
+      "step": 300,
+      "energy": 0.06204556092680388,
+      "l2_residual": 0.014112098464124825,
+      "u_max": 0.8221125848539838
+    },
+    {
+      "step": 400,
+      "energy": 0.06200914334756026,
+      "l2_residual": 0.013402037077806492,
+      "u_max": 0.7944795968649647
+    }
+  ],
+  "energy_trace_overlapped": [
+    {
+      "step": 0,
+      "energy": 0.06220141891062554,
+      "l2_residual": 0.0,
+      "u_max": 0.922413426268003
+    },
+    {
+      "step": 100,
+      "energy": 0.06212800344479495,
+      "l2_residual": 0.015839200733515007,
+      "u_max": 0.8858073723809953
+    },
+    {
+      "step": 200,
+      "energy": 0.06208424746570877,
+      "l2_residual": 0.014906310449378646,
+      "u_max": 0.8523869177362488
+    },
+    {
+      "step": 300,
+      "energy": 0.06204556092680388,
+      "l2_residual": 0.014112098464124825,
+      "u_max": 0.8221125848539838
+    },
+    {
+      "step": 400,
+      "energy": 0.06200914334756026,
+      "l2_residual": 0.013402037077806492,
+      "u_max": 0.7944795968649647
+    }
+  ],
+  "energy_monotonic_nonincreasing": true,
+  "serialized_ms": 963.3713836669922,
+  "overlapped_ms": 1393.8611450195312,
+  "serialized_wall_ms": 963.4270260000335,
+  "overlapped_wall_ms": 1393.8946339999916,
+  "overlap_speedup": 0.6911530514422174,
+  "parity_max_diff": 0.0,
+  "parity_passed": true,
+  "ptx_counts": {
+    "st.shared.f64": 10,
+    "ld.shared.f64": 10,
+    "ld.shared.v2.f64": 0,
+    "st.shared (any)": 10,
+    "ld.shared (any)": 10,
+    "bar.sync": 1,
+    "barrier.sync": 0,
+    "ld.global.f64 (any)": 11,
+    "st.global.f64": 1,
+    "fma.rn.f64": 2,
+    "ptx_lines": 369
+  },
+  "ptx_audit_passed": true,
+  "halo_bytes_per_step_per_rank": {
+    "d2h": 8192,
+    "h2d": 8192
+  },
+  "forbidden_collectives_on_fields": false,
+  "solver_sha256": "70337b72bbb75c6c0b8cf798e0f3f228922ab34124557412a2e02b4b53e486c4",
+  "tasks_completed": {
+    "task1_topology_seed": true,
+    "task2_initialization": true,
+    "task3_halo_exchange": true,
+    "task4_tiled_stencil_overlap": true,
+    "task5_reductions_ptx_benchmark": true
+  }
+}
