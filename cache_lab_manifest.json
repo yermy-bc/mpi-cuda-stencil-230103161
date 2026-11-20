@@ -1,0 +1,540 @@
+{
+  "student_name": "Ainat Yermurat",
+  "student_id": "230103161",
+  "git_username": "yermy-bc",
+  "GIT_USERNAME": "yermy-bc",
+  "repository": "cache-line-false-sharing-yermy-bc",
+  "timestamp_utc": "2026-11-20T05:40:43.534398+00:00",
+  "system": {
+    "cpu_model": "11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz",
+    "cpu_sig": "AMD64::Intel64 Family 6 Model 140 Stepping 1, GenuineIntel::8",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.15.0",
+    "numpy": "2.5.5",
+    "numba": "0.68.1",
+    "logical_cores": 8,
+    "physical_cores": null,
+    "cache_line_size": 64,
+    "elements_per_line": 8,
+    "affinity_cores": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "affinity_mode": "win32:SetThreadAffinityMask (even logical ids)",
+    "resource_available": false
+  },
+  "seed_sha256": "290535f245bd1407cdaeacfbe370527ed3bc548216274c1badc723b162900669",
+  "INSTANCE_SEED": "2955828045106975751",
+  "instance_seed_hex": "0x290535f245bd1407",
+  "thread_seeds": [
+    "13200697343771895826",
+    "1543545553502727213",
+    "17555973483872280632",
+    "5897695810876138579"
+  ],
+  "num_threads": 4,
+  "iterations_per_thread": 60000000,
+  "repeats": 3,
+  "stride_results": {
+    "1": {
+      "elapsed_ns_runs": [
+        203067200,
+        202952800,
+        202807700
+      ],
+      "elapsed_ns_median": 202952800,
+      "elapsed_ns_min": 202807700,
+      "ns_per_update": 3.382546666666667,
+      "ns_per_update_aggregate": 0.8456366666666667,
+      "updates_per_sec_total": 1182540965.189936,
+      "byte_offsets": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "cache_lines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "returned_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "untouched_zero": true,
+      "pinned": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "voluntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "involuntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "all_runs_final_values": [
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ]
+      ],
+      "stride": 1,
+      "stride_bytes": 8,
+      "layout": "Layout A: Contiguous (8 B)"
+    },
+    "4": {
+      "elapsed_ns_runs": [
+        226984100,
+        225808800,
+        226644300
+      ],
+      "elapsed_ns_median": 226644300,
+      "elapsed_ns_min": 225808800,
+      "ns_per_update": 3.777405,
+      "ns_per_update_aggregate": 0.94435125,
+      "updates_per_sec_total": 1058928020.6914536,
+      "byte_offsets": [
+        0,
+        32,
+        64,
+        96
+      ],
+      "cache_lines": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "final_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "returned_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "untouched_zero": true,
+      "pinned": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "voluntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "involuntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "all_runs_final_values": [
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ]
+      ],
+      "stride": 4,
+      "stride_bytes": 32,
+      "layout": "Layout B: Half-Line (32 B)"
+    },
+    "8": {
+      "elapsed_ns_runs": [
+        106934400,
+        106390000,
+        106214500
+      ],
+      "elapsed_ns_median": 106390000,
+      "elapsed_ns_min": 106214500,
+      "ns_per_update": 1.7731666666666666,
+      "ns_per_update_aggregate": 0.44329166666666664,
+      "updates_per_sec_total": 2255851113.8264875,
+      "byte_offsets": [
+        0,
+        64,
+        128,
+        192
+      ],
+      "cache_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "final_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "returned_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "untouched_zero": true,
+      "pinned": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "voluntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "involuntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "all_runs_final_values": [
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ]
+      ],
+      "stride": 8,
+      "stride_bytes": 64,
+      "layout": "Layout C: Line-Padded (64 B)"
+    },
+    "16": {
+      "elapsed_ns_runs": [
+        106042300,
+        106007600,
+        108332600
+      ],
+      "elapsed_ns_median": 106042300,
+      "elapsed_ns_min": 106007600,
+      "ns_per_update": 1.7673716666666666,
+      "ns_per_update_aggregate": 0.44184291666666664,
+      "updates_per_sec_total": 2263247779.4238715,
+      "byte_offsets": [
+        0,
+        128,
+        256,
+        384
+      ],
+      "cache_lines": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "final_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "returned_values": [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      "untouched_zero": true,
+      "pinned": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "voluntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "involuntary_ctx_switches": [
+        null,
+        null,
+        null
+      ],
+      "all_runs_final_values": [
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ],
+        [
+          "1140000000",
+          "2700000000",
+          "3420000000",
+          "4980000000"
+        ]
+      ],
+      "stride": 16,
+      "stride_bytes": 128,
+      "layout": "Layout D: Prefetch-Safe (128 B)"
+    }
+  },
+  "private_baseline": {
+    "elapsed_ns_runs": [
+      35352100,
+      34294200,
+      35668700
+    ],
+    "elapsed_ns_median": 35352100,
+    "elapsed_ns_min": 34294200,
+    "ns_per_update": 0.5892016666666666,
+    "ns_per_update_aggregate": 0.14730041666666666,
+    "updates_per_sec_total": 6788847055.761893,
+    "byte_offsets": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "cache_lines": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "final_values": [
+      "1140000000",
+      "2700000000",
+      "3420000000",
+      "4980000000"
+    ],
+    "returned_values": [
+      "1140000000",
+      "2700000000",
+      "3420000000",
+      "4980000000"
+    ],
+    "untouched_zero": true,
+    "pinned": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "voluntary_ctx_switches": [
+      null,
+      null,
+      null
+    ],
+    "involuntary_ctx_switches": [
+      null,
+      null,
+      null
+    ],
+    "all_runs_final_values": [
+      [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ],
+      [
+        "1140000000",
+        "2700000000",
+        "3420000000",
+        "4980000000"
+      ]
+    ],
+    "stride": 1,
+    "layout": "Register-privatized (stride 1, single final store)"
+  },
+  "slowdown_ratios": {
+    "stride1_over_stride8": 1.9076304163925182,
+    "stride4_over_stride8": 2.130315819155936,
+    "stride16_over_stride8": 0.9967318356988438,
+    "stride8_over_private": 3.009439326093782,
+    "stride1_over_private": 5.740897994744301
+  },
+  "gil_experiment": {
+    "iters_per_thread": 2000000,
+    "1_thread_stride1": {
+      "threads": 1,
+      "stride": 1,
+      "elapsed_ns": 181059000,
+      "ns_per_update_aggregate": 90.5295
+    },
+    "4_threads_stride1": {
+      "threads": 4,
+      "stride": 1,
+      "elapsed_ns": 670082900,
+      "ns_per_update_aggregate": 83.7603625
+    },
+    "4_threads_stride8": {
+      "threads": 4,
+      "stride": 8,
+      "elapsed_ns": 679054700,
+      "ns_per_update_aggregate": 84.8818375
+    },
+    "gil_4t_vs_1t_wall_ratio": 3.700909095930056,
+    "gil_stride1_vs_stride8_ratio": 0.9867878095829393,
+    "switch_interval_s": 0.005
+  },
+  "parity": {
+    "expected_final_values": [
+      "1140000000",
+      "2700000000",
+      "3420000000",
+      "4980000000"
+    ],
+    "per_layout": {
+      "1": true,
+      "4": true,
+      "8": true,
+      "16": true,
+      "private": true
+    },
+    "passed": true
+  },
+  "llvm_audit": {
+    "worker_strided_accumulate": {
+      "signatures": [
+        "(Array(uint64, 1, 'C', False, aligned=True), uint64, int64, uint64)"
+      ],
+      "store_i64": 10,
+      "load_i64": 9,
+      "loop_backedges_br": 5,
+      "phi_nodes": 6,
+      "pyobject_refs_in_body": 0,
+      "nrt_calls_in_body": 0,
+      "body_lines": 88,
+      "whole_module_lines": 290
+    },
+    "worker_private_accumulate": {
+      "signatures": [
+        "(Array(uint64, 1, 'C', False, aligned=True), uint64, int64, uint64)"
+      ],
+      "store_i64": 2,
+      "load_i64": 0,
+      "loop_backedges_br": 5,
+      "phi_nodes": 6,
+      "pyobject_refs_in_body": 0,
+      "nrt_calls_in_body": 0,
+      "body_lines": 71,
+      "whole_module_lines": 273
+    },
+    "strided_loop_excerpt": [
+      "br i1 %.11682.not, label %B242, label %B168.lr.ph",
+      "br i1 %1, label %B168.epil.preheader, label %B168.lr.ph.new",
+      "%lsr.iv3 = phi i64 [ %lsr.iv.next4, %B168 ], [ %unroll_iter, %B168.lr.ph.new ]",
+      "%v.2.085 = phi i64 [ 0, %B168.lr.ph.new ], [ %.187.7, %B168 ]",
+      "%.156 = lshr i64 %v.2.085, 63",
+      "%.185 = load i64, ptr %.184, align 8",
+      "%.187 = add i64 %.185, %.22",
+      "store i64 %.187, ptr %.184, align 8",
+      "%.156.1 = lshr i64 %.187, 63",
+      "%.185.1 = load i64, ptr %.184.1, align 8",
+      "%.187.1 = add i64 %.185.1, %.22",
+      "store i64 %.187.1, ptr %.184.1, align 8",
+      "%.156.2 = lshr i64 %.187.1, 63",
+      "%.185.2 = load i64, ptr %.184.2, align 8",
+      "%.187.2 = add i64 %.185.2, %.22",
+      "store i64 %.187.2, ptr %.184.2, align 8",
+      "%.156.3 = lshr i64 %.187.2, 63",
+      "%.185.3 = load i64, ptr %.184.3, align 8",
+      "%.187.3 = add i64 %.185.3, %.22",
+      "store i64 %.187.3, ptr %.184.3, align 8",
+      "%.156.4 = lshr i64 %.187.3, 63",
+      "%.185.4 = load i64, ptr %.184.4, align 8",
+      "%.187.4 = add i64 %.185.4, %.22",
+      "store i64 %.187.4, ptr %.184.4, align 8",
+      "%.156.5 = lshr i64 %.187.4, 63",
+      "%.185.5 = load i64, ptr %.184.5, align 8",
+      "%.187.5 = add i64 %.185.5, %.22",
+      "store i64 %.187.5, ptr %.184.5, align 8",
+      "%.156.6 = lshr i64 %.187.5, 63",
+      "%.185.6 = load i64, ptr %.184.6, align 8",
+      "%.187.6 = add i64 %.185.6, %.22",
+      "store i64 %.187.6, ptr %.184.6, align 8",
+      "%.156.7 = lshr i64 %.187.6, 63",
+      "%.185.7 = load i64, ptr %.184.7, align 8",
+      "%.187.7 = add i64 %.185.7, %.22",
+      "store i64 %.187.7, ptr %.184.7, align 8",
+      "br i1 %niter.ncmp.7.not, label %B242.loopexit.unr-lcssa, label %B168",
+      "br i1 %lcmp.mod.not, label %B242, label %B168.epil.preheader",
+      "%v.2.085.epil.init = phi i64 [ 0, %B168.lr.ph ], [ %.187.7, %B242.loopexit.unr-lcssa ]",
+      "%lsr.iv = phi i64 [ %lsr.iv.next, %B168.epil ], [ %xtraiter, %B168.epil.preheader ]"
+    ],
+    "passed": true
+  },
+  "verification_passed": true
+}
